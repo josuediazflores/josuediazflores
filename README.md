@@ -1,4 +1,4 @@
-# Hi there, I'm Josue Diaz Flores! 👋
+# Hi there, I'm Josue!
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Full+Stack+Developer;AI+Enthusiast;Team+Leader" alt="Typing SVG" />
@@ -6,15 +6,15 @@
 
 ## 🚀 About Me
 
-I'm a Computer Science student at Santa Clara University with a passion for building innovative solutions and leading technical teams. Currently working as an IT Intern at Synopsys, I've gained hands-on experience in enterprise systems, network troubleshooting, and team mentorship.
+I'm a Computer Science student at Santa Clara University with a passion for building innovative solutions and leading technical teams. Previously worked as an IT Intern at Synopsys, where I gained hands-on experience in enterprise systems, network troubleshooting, and team mentorship.
 
 - 🎓 Pursuing Bachelor of Science in Computer Science at Santa Clara University
-- 💼 IT Intern at Synopsys, leading teams and solving complex technical challenges
-- 🚀 Co-founder of Classly, an AI-driven communication platform
+- 💼 Previous IT Intern at Synopsys, led teams and solved complex technical challenges
 - 🌱 Always exploring new technologies, especially AI/ML and cloud computing
 - 👯 Looking to collaborate on open source projects and innovative solutions
 - 💬 Ask me about full-stack development, AI integration, or team leadership
 - ⚡ Fun fact: I've trained over a dozen baristas and led teams of 5+ interns
+I also began learning on Khan Academy in third grade lol
 
 ## 🛠️ Tech Stack
 
@@ -54,55 +54,19 @@ I'm a Computer Science student at Santa Clara University with a passion for buil
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=josuediazflores&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=josuediazflores&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=josuediazflores&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=josuediazflores&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
-</div>
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=josuediazflores&theme=tokyonight&hide_border=true" alt="Contribution Graph" />
-</div>
 
 ## 🚀 Featured Projects
 
 ### Classly - AI-Driven Communication Platform
-**Co-founder & Developer | Oct 2024 - Present**
-- 🏆 **NVIDIA Hackathon Winner** - Integrated NVIDIA models for content classification and prioritization
+- 🏆 **NVIDIA Hackathon Project** - Integrated NVIDIA models for content classification and prioritization
 - 🤖 **AI Integration** - Leveraged xAI multi-modal models for enhanced UX and moderation accuracy
 - 🌐 **Full-Stack Development** - Built scalable platform from hackathon concept to live production
 - 📊 **Open Source** - Published free version for community use
 - 🛠️ **Tech Stack**: Next.js, AWS Lambda, DynamoDB, S3, SNS, Python, AI/ML Models
 
-### Course Registration Extension
-**Full-Stack Developer | 400+ Active Users**
-- 📈 **High Impact** - Served 400+ users with data-driven course insights
-- 🔧 **Full-Stack Implementation** - Next.js frontend with AWS backend infrastructure
-- 🔐 **Authentication** - Google OAuth integration for secure user access
-- 🧪 **Testing** - Automated end-to-end regression testing with Puppeteer
-- 📊 **Data Pipeline** - Automated course evaluation data scraping and processing
-- 🛠️ **Tech Stack**: Next.js, AWS Lambda, S3, DynamoDB, SNS, Google OAuth, Puppeteer
-
 ## 🎯 Current Focus
-
-- 🔥 Building scalable AI-driven applications at Classly
-- 💼 Leading technical teams and solving complex enterprise challenges at Synopsys
+- 🔥 Building scalable AI-driven applications at excused.ai
+- 💼 Previous experience leading technical teams and solving enterprise challenges at Synopsys
 - 🎓 Advancing Computer Science studies at Santa Clara University
 - 🤖 Exploring AI/ML integration and multi-modal models
 - 📚 Contributing to open source projects and developer community
@@ -122,12 +86,6 @@ I'm a Computer Science student at Santa Clara University with a passion for buil
   <a href="mailto:josue@josuediazflores.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-</div>
-
-## 💡 Random Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
 </div>
 
 ---
