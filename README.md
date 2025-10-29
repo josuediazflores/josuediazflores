@@ -88,12 +88,3 @@ I also began learning on Khan Academy in third grade lol
   </a>
 </div>
 
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=josuediazflores&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</div>
-
-<div align="center">
-  <i>Thanks for visiting my profile! Let's build something amazing together! 🚀</i>
-</div>
