@@ -1,18 +1,13 @@
 # Hi there, I'm Josue!
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Full+Stack+Developer;AI+Enthusiast;Team+Leader" alt="Typing SVG" />
-</div>
-
-## 🚀 About Me
+## About Me
 
 I'm a Computer Science student at Santa Clara University with a passion for building innovative solutions and leading technical teams. Previously worked as an IT Intern at Synopsys, where I gained hands-on experience in enterprise systems, network troubleshooting, and team mentorship.
 
-- 🎓 Pursuing Bachelor of Science in Computer Science at Santa Clara University
-- 💼 Previous IT Intern at Synopsys, led teams and solved complex technical challenges
-- 🌱 Always exploring new technologies, especially AI/ML and cloud computing
-- 👯 Looking to collaborate on open source projects and innovative solutions
-- 💬 Ask me about full-stack development, AI integration, or team leadership
+- Pursuing Bachelor of Science in Computer Science at Santa Clara University
+- Previous IT Intern at Synopsys, led teams and solved complex technical challenges
+- Always exploring new technologies, especially AI/ML and cloud computing
+- Looking to collaborate on open source projects and innovative solutions
 - ⚡ Fun fact: I've trained over a dozen baristas and led teams of 5+ interns
 I also began learning on Khan Academy in third grade lol
 
@@ -55,7 +50,7 @@ I also began learning on Khan Academy in third grade lol
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### Classly - AI-Driven Communication Platform
 - 🏆 **NVIDIA Hackathon Project** - Integrated NVIDIA models for content classification and prioritization
@@ -64,7 +59,7 @@ I also began learning on Khan Academy in third grade lol
 - 📊 **Open Source** - Published free version for community use
 - 🛠️ **Tech Stack**: Next.js, AWS Lambda, DynamoDB, S3, SNS, Python, AI/ML Models
 
-## 🎯 Current Focus
+## Current Focus
 - 🔥 Building scalable AI-driven applications at excused.ai
 - 💼 Previous experience leading technical teams and solving enterprise challenges at Synopsys
 - 🎓 Advancing Computer Science studies at Santa Clara University
