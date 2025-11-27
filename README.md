@@ -1,1 +1,9 @@
-# Readme
+# Hi there, I'm Josue Diaz Flores 👋
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+    <img src="light_mode.svg" alt="GitHub Stats" />
+  </picture>
+</div>
