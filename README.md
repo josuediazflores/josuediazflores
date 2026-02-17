@@ -1,7 +1,2 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
-    <img src="light_mode.svg" alt="GitHub Stats" />
-  </picture>
-</div>
+![GitHub Stats](./light_mode.svg#gh-light-mode-only)
+![GitHub Stats](./dark_mode.svg#gh-dark-mode-only)
