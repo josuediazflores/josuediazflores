@@ -12,6 +12,7 @@ import hashlib
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME']
+CONTRIBUTIONS_API = 'https://github-contributions-api.jogruber.de/v4/{}?y=last'
 # BIRTHDAY format: YYYY-MM-DD (e.g., '2000-01-15')
 BIRTHDAY_STR = os.environ.get('BIRTHDAY', '2004-04-14')  # Default to 2004-04-14 if not set
 BIRTHDAY = datetime.datetime.strptime(BIRTHDAY_STR, '%Y-%m-%d')
@@ -74,6 +75,7 @@ def graph_commits(start_date, end_date):
     """
     Uses GitHub's GraphQL v4 API to return my total commit count
     """
+
     query_count('graph_commits')
     query = '''
     query($start_date: DateTime!, $end_date: DateTime!, $login: String!) {
@@ -88,6 +90,17 @@ def graph_commits(start_date, end_date):
     variables = {'start_date': start_date,'end_date': end_date, 'login': USER_NAME}
     request = simple_request(graph_commits.__name__, query, variables)
     return int(request.json()['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])
+
+
+def last_year_contributions(username):
+    """Return the same rolling one-year contribution total shown on the portfolio."""
+    response = requests.get(CONTRIBUTIONS_API.format(username), timeout=30)
+    response.raise_for_status()
+    data = response.json()
+    total = data.get('total', {}).get('lastYear')
+    if not isinstance(total, int):
+        raise ValueError('contribution API did not return a last-year total')
+    return total
 
 
 def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del_loc=0):
@@ -471,7 +484,7 @@ if __name__ == '__main__':
     formatter('age calculation', age_time)
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
-    commit_data, commit_time = perf_counter(commit_counter, 7)
+    commit_data, commit_time = perf_counter(last_year_contributions, USER_NAME)
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
